@@ -31,7 +31,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @ContextConfiguration(classes = {CardService.class})
 @ExtendWith(SpringExtension.class)
 @DisabledInAotMode
-class CardServiceDiffblueTest {
+class CardServiceUnitTest {
     @MockBean
     private CardRepository cardRepository;
 
